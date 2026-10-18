@@ -1,0 +1,12 @@
+# Hugo output and caches
+public/
+.pages-tools/
+site/resources/_gen/
+site/.hugo_build.lock
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
