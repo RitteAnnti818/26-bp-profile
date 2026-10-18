@@ -1,0 +1,18 @@
+params:
+  navbar:
+    align: "ms-auto"
+    showBrandLogo: false
+    brandName: "Heeyeon Kim"
+    disableSearch: true
+    stickyNavBar:
+      enable: false
+      showOnScrollUp: false
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
