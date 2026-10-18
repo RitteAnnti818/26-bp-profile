@@ -46,3 +46,15 @@ hugo server --source site --config hugo.yaml,pages.json --baseURL http://localho
 
 개인 정보를 수정한 뒤 production 빌드와 세 화면 폭을 다시 확인합니다.
 
+## 커밋과 재배포
+
+기능 하나가 완성되고 확인될 때마다 실제 변경 파일을 커밋합니다.
+
+```powershell
+git add site/content/about.md
+git commit -m "content(about): update research interests"
+git push origin main
+```
+
+`main` push는 `.github/workflows/deploy.yml`을 자동 실행합니다. GitHub의 **Actions**에서 build와 deploy가 모두 성공했는지 확인하고, **Settings → Pages → Build and deployment → Source**가 **GitHub Actions**인지 확인합니다. 마지막으로 로그인하지 않은 창에서 공개 URL을 다시 엽니다.
+
