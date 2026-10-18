@@ -1,6 +1,0 @@
-params:
-  footer:
-    recentPosts:
-      enable: false
-    socialNetworks: {}
-

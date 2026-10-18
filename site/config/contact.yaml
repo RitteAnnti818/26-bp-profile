@@ -1,8 +1,0 @@
-params:
-  contact:
-    enable: true
-    title: "Next learning goal"
-    content: "My next goal is to strengthen both reliable 3D scene understanding and reproducible technical communication. The immediate action is to complete one post-deployment audit at 1440 px, 768 px, 390 px, 200% zoom, and keyboard-only navigation, then connect the findings to one documented improvement and re-deployment."
-    btnName: "Open the source repository"
-    btnLink: "https://github.com/RitteAnnti818/2026-beginner-project-portfolio"
-

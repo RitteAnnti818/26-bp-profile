@@ -1,17 +1,80 @@
 baseURL: "https://ritteannti818.github.io/2026-beginner-project-portfolio/"
-defaultContentLanguage: "en"
-title: "Heeyeon Kim"
-theme: "hugo-profile"
+title: "Heeyeon Kim | Portfolio"
+theme: "hugo-blog-awesome"
+defaultContentLanguage: "ko"
+enableEmoji: true
 enableRobotsTXT: true
-
-languages:
-  en:
-    locale: "en-US"
-    label: "English"
-    weight: 1
+ignoreErrors:
+  - "additional-script-loading-error"
 
 markup:
+  highlight:
+    noClasses: false
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
+
+languages:
+  ko:
+    languageName: "한국어"
+    languageCode: "ko-KR"
+    locale: "ko-KR"
+    contentDir: "content"
+    weight: 1
+    menus:
+      main:
+        - name: "소개"
+          pageRef: "/about"
+          weight: 10
+        - name: "경험"
+          pageRef: "/experience"
+          weight: 20
+        - name: "활동"
+          pageRef: "/projects"
+          weight: 30
+        - name: "학습 계획"
+          pageRef: "/learning"
+          weight: 40
+        - name: "검증"
+          pageRef: "/verification"
+          weight: 50
+    params:
+      sitename: "Heeyeon Kim Portfolio"
+      defaultColor: "auto"
+      description: "3D Vision과 Computer Graphics를 공부하는 Heeyeon Kim의 포트폴리오"
+      mainSections:
+        - "projects"
+      toc: true
+      tocOpen: true
+      goToTop: true
+      dateFormat: "2006-01-02"
+      rssFeedDescription: "summary"
+      author:
+        avatar: "avatar.jpg"
+        intro: "안녕하세요, Heeyeon Kim입니다."
+        name: "Heeyeon Kim"
+        description: "JBNU에서 컴퓨터공학과 인공지능을 공부하며 3D Vision과 Computer Graphics에 관심을 두고 있습니다."
+      webmanifest:
+        name: "Heeyeon Kim Portfolio"
+        short_name: "HK Portfolio"
+        start_url: "/2026-beginner-project-portfolio/"
+        theme_color: "#315b7d"
+        background_color: "#ffffff"
+        display: "standalone"
+      socialIcons:
+        - name: "github"
+          url: "https://github.com/RitteAnnti818"
+          title: "Heeyeon Kim의 GitHub"
+        - name: "email"
+          url: "mailto:heeyeon23@jbnu.ac.kr"
+          title: "Heeyeon Kim에게 이메일 보내기"
+
+outputs:
+  home:
+    - HTML
+    - RSS
 
