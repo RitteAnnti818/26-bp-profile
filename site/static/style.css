@@ -131,6 +131,19 @@ footer {
   border-top: 1px solid rgba(23, 32, 51, 0.12);
 }
 
+.back-to-top-wrap {
+  display: flex;
+  justify-content: flex-end;
+  padding-block: 1.5rem;
+}
+
+.back-to-top {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 0.75rem;
+}
+
 @media (max-width: 991.98px) {
   #hero {
     padding-top: 2.5rem !important;
