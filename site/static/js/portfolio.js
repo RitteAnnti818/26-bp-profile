@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navigation = document.getElementById("navbarContent");
 
+  document.querySelectorAll('a[target="_blank"]').forEach((link) => {
+    link.rel = "noopener noreferrer";
+  });
+
   if (!navigation || typeof bootstrap === "undefined") {
     return;
   }
