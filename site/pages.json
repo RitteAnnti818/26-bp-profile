@@ -1,0 +1,21 @@
+{
+  "baseURL": "https://ritteannti818.github.io/2026-beginner-project-portfolio/",
+  "enableGitInfo": false,
+  "themesDir": "themes",
+  "timeout": "120s",
+  "security": {
+    "exec": {
+      "allow": [
+        "^(dart-)?sass$",
+        "^go$",
+        "^git$",
+        "^node$",
+        "^postcss$",
+        "^tailwindcss$",
+        "^asciidoctor$"
+      ]
+    },
+    "allowContent": ["^text/"]
+  }
+}
+
