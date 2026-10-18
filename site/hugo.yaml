@@ -20,8 +20,7 @@ markup:
 
 languages:
   ko:
-    languageName: "한국어"
-    languageCode: "ko-KR"
+    label: "한국어"
     locale: "ko-KR"
     contentDir: "content"
     weight: 1
