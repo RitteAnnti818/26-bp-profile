@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hugo site deployment flow</title>
+  <desc id="desc">Content, Hugo build, GitHub Actions, and the public Pages site are connected from left to right.</desc>
+  <rect width="720" height="420" rx="32" fill="#F7F9FC"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <g transform="translate(110 210)"><rect x="-76" y="-58" width="152" height="116" rx="22" fill="#fff" stroke="#0B5FFF" stroke-width="4"/><text y="-4" font-size="23" font-weight="700" fill="#172033">Content</text><text y="28" font-size="17" fill="#536079">Profile + work</text></g>
+    <g transform="translate(300 210)"><rect x="-76" y="-58" width="152" height="116" rx="22" fill="#fff" stroke="#0B5FFF" stroke-width="4"/><text y="-4" font-size="23" font-weight="700" fill="#172033">Hugo</text><text y="28" font-size="17" fill="#536079">Static build</text></g>
+    <g transform="translate(490 210)"><rect x="-76" y="-58" width="152" height="116" rx="22" fill="#fff" stroke="#0B5FFF" stroke-width="4"/><text y="-4" font-size="23" font-weight="700" fill="#172033">Actions</text><text y="28" font-size="17" fill="#536079">Deploy</text></g>
+    <g transform="translate(650 210)"><circle r="58" fill="#172033"/><text y="-4" font-size="23" font-weight="700" fill="#fff">Pages</text><text y="28" font-size="17" fill="#fff">Public</text></g>
+  </g>
+  <g fill="none" stroke="#0B5FFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 210h26l-14-14m14 14l-14 14"/>
+    <path d="M380 210h26l-14-14m14 14l-14 14"/>
+    <path d="M570 210h18l-14-14m14 14l-14 14"/>
+  </g>
+</svg>
+
