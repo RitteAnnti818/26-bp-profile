@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
+<html lang="{{ .Site.Language.Locale }}"{{ if eq $defaultColor "dark" }} class="dark"{{ else if eq $defaultColor "light" }} class="light"{{ end }}>
+{{- partial "head.html" . -}}
+<body data-theme="{{ $defaultColor }}" class="notransition">
+  {{- partial "scriptsBodyStart.html" . -}}
+  <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+  {{- partial "header.html" . -}}
+  <div class="wrapper">
+    {{ partial "bio" . }}
+    <main id="main-content" aria-label="포트폴리오 주요 내용">
+      <section class="portfolio-intro" aria-labelledby="portfolio-heading">
+        <p class="eyebrow">3D Vision · Computer Graphics · Reproducible Research</p>
+        <h1 id="portfolio-heading">연구 관심과 프로젝트 과정을 기록합니다.</h1>
+        <p>소개에서 관심 분야와 역량을, 활동에서 실제 수행 과정과 결과를 확인할 수 있습니다.</p>
+        <div class="cta-row">
+          <a class="button-link primary" href="{{ "about/" | relLangURL }}">소개 보기</a>
+          <a class="button-link" href="{{ "projects/" | relLangURL }}">활동 보기</a>
+        </div>
+      </section>
+
+      <section aria-labelledby="quick-links-heading">
+        <h2 id="quick-links-heading">빠른 탐색</h2>
+        <div class="portfolio-grid">
+          <a class="portfolio-card" href="{{ "experience/" | relLangURL }}"><strong>경험</strong><span>연구실·발표·수상 기록</span></a>
+          <a class="portfolio-card" href="{{ "learning/" | relLangURL }}"><strong>학습 계획</strong><span>다음 목표와 구체적인 행동</span></a>
+          <a class="portfolio-card" href="{{ "verification/" | relLangURL }}"><strong>검증</strong><span>빌드·경로·반응형·키보드 점검</span></a>
+        </div>
+      </section>
+
+      <section aria-labelledby="activities-heading">
+        <h2 id="activities-heading">대표 활동</h2>
+        {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{ range $pagesToShow.ByDate.Reverse }}
+          {{ partial "postCard" . }}
+        {{ end }}
+      </section>
+    </main>
+  </div>
+  {{- partial "footer.html" . -}}
+  {{- partial "scriptsBodyEnd.html" . -}}
+</body>
+</html>
+
