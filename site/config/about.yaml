@@ -1,0 +1,18 @@
+params:
+  about:
+    enable: true
+    title: "About"
+    image: "images/pic.jpg"
+    content: |-
+      I am an undergraduate student at **Jeonbuk National University (JBNU)**, pursuing a B.S. in Computer Science and Artificial Intelligence. I am currently an undergraduate researcher at the [Machine Intelligence Lab](https://sites.google.com/view/miljbnu/home) under Prof. Sang Jun Lee, and previously worked at the [Vision Intelligence Lab](https://jbnu-vilab.github.io/) under Prof. Se-Ho Lee.
+
+      My research focuses on **3D vision and computer graphics**. I became interested in reliable scene understanding while working on monocular depth estimation for unstructured obstacle detection. I also care about reproducible technical communication because research results are more useful when people can reach, read, and verify them consistently.
+    skills:
+      enable: true
+      title: "Current topics and tools connected to my work"
+      items:
+        - "3D vision and scene geometry"
+        - "Monocular depth estimation for obstacle detection"
+        - "Computer graphics"
+        - "Hugo and GitHub Actions for reproducible web publishing"
+
