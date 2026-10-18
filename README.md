@@ -16,3 +16,20 @@
 
 Actions에서는 Hugo·Python·Node·Go 버전을 워크플로에 고정합니다. 테마 소스도 `site/themes/hugo-blog-awesome/`에 포함하므로 별도 submodule 초기화가 필요하지 않습니다.
 
+## 로컬 빌드
+
+1. 저장소를 clone하고 루트 폴더로 이동합니다.
+2. Hugo Extended 0.167.0과 Python을 PATH에서 실행할 수 있게 준비합니다.
+3. 아래 명령으로 production 결과를 생성합니다.
+
+```powershell
+python .github/pages_build.py --dependencies
+python .github/pages_build.py --build
+```
+
+성공하면 `public/index.html`이 생성됩니다. 로컬 개발 중에는 다음 명령으로 미리 볼 수 있습니다.
+
+```powershell
+hugo server --source site --config hugo.yaml,pages.json --baseURL http://localhost:1313/ --disableFastRender
+```
+
