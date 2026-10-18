@@ -58,3 +58,16 @@ git push origin main
 
 `main` push는 `.github/workflows/deploy.yml`을 자동 실행합니다. GitHub의 **Actions**에서 build와 deploy가 모두 성공했는지 확인하고, **Settings → Pages → Build and deployment → Source**가 **GitHub Actions**인지 확인합니다. 마지막으로 로그인하지 않은 창에서 공개 URL을 다시 엽니다.
 
+## 검증과 보고서 근거
+
+- `docs/criteria/`: 공개 평가 P01–P80 구현 위치
+- `docs/qa/`: 빌드·자산·링크·반응형·키보드 수동 절차
+- `docs/verification/`: 실제 결과와 화면 증빙 표
+- `docs/report/`: 제출 정보, 기능 변경, 오류 수정, AI 활용, 커밋 집계 초안
+
+최종 제출 전에는 1440px·768px·390px, 200% 확대, 연속 Tab 조작, 내부 URL 새로고침, 캐시 없는 자산 요청을 공개 사이트에서 검사합니다. 원격 배포 결과가 없을 때는 로컬 성공을 공개 성공으로 기록하지 않습니다.
+
+## 출처와 라이선스
+
+테마는 [hugo-sid/hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome)의 MIT 라이선스 버전 2.1.1을 사용하며, 원본 라이선스는 `site/themes/hugo-blog-awesome/LICENSE`에 유지합니다. 루트 `LICENSE`는 이 저장소에서 작성한 콘텐츠와 커스텀 소스에 적용됩니다. 세부 자산·AI 활용 구분은 `docs/report/06-sources-and-license.md`에 기록합니다.
+
