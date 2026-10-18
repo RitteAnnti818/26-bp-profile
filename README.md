@@ -33,3 +33,16 @@ python .github/pages_build.py --build
 hugo server --source site --config hugo.yaml,pages.json --baseURL http://localhost:1313/ --disableFastRender
 ```
 
+## 콘텐츠 수정 위치
+
+- 기본 정보·메뉴·운영 URL: `site/hugo.yaml`
+- 소개와 기술 적용 사례: `site/content/about.md`
+- 연구실·발표·수상: `site/content/experience.md`
+- 학습 목표와 다음 행동: `site/content/learning.md`
+- 대표 활동: `site/content/projects/portfolio-site/index.md`
+- 연구 기록: `site/content/projects/depth-estimation/index.md`
+- 홈 화면 구성: `site/layouts/home.html`
+- 색상·반응형·초점 스타일: `site/assets/sass/_custom.scss`
+
+개인 정보를 수정한 뒤 production 빌드와 세 화면 폭을 다시 확인합니다.
+
