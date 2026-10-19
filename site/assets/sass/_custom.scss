@@ -104,6 +104,15 @@ label:focus-visible {
 }
 
 @media (max-width: 768px) {
+  .menu input[type="checkbox"]:checked ~ .trigger {
+    z-index: 0;
+    background: #fff;
+  }
+
+  .menu .menu-icon {
+    z-index: 3;
+  }
+
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
