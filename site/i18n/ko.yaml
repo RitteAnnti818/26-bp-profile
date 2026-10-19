@@ -2,12 +2,6 @@
 - id: "home.home"
   translation: "홈"
 
-- id: "home.recent_posts"
-  translation: "대표 활동"
-
-- id: "home.see_all_posts"
-  translation: "모든 활동 보기"
-
 ## SINGLE ##
 - id: "single.table_of_contents"
   translation: "목차"

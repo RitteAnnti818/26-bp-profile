@@ -32,21 +32,16 @@ languages:
         - name: "경험"
           pageRef: "/experience"
           weight: 20
-        - name: "활동"
-          pageRef: "/projects"
-          weight: 30
-        - name: "학습 계획"
+        - name: "연구 방향"
           pageRef: "/learning"
-          weight: 40
+          weight: 30
         - name: "검증"
           pageRef: "/verification"
-          weight: 50
+          weight: 40
     params:
       sitename: "Heeyeon Kim Portfolio"
       defaultColor: "auto"
-      description: "3D Vision과 Computer Graphics를 공부하는 Heeyeon Kim의 포트폴리오"
-      mainSections:
-        - "projects"
+      description: "3D Vision과 Computer Graphics를 연구하는 Heeyeon Kim의 학술 포트폴리오"
       toc: true
       tocOpen: true
       goToTop: true
@@ -54,9 +49,9 @@ languages:
       rssFeedDescription: "summary"
       author:
         avatar: "avatar.jpg"
-        intro: "안녕하세요, Heeyeon Kim입니다."
+        intro: "Heeyeon Kim"
         name: "Heeyeon Kim"
-        description: "JBNU에서 컴퓨터공학과 인공지능을 공부하며 3D Vision과 Computer Graphics에 관심을 두고 있습니다."
+        description: "Undergraduate Researcher · 3D Vision · Computer Graphics"
       webmanifest:
         name: "Heeyeon Kim Portfolio"
         short_name: "HK Portfolio"

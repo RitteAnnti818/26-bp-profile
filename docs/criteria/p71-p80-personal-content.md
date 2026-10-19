@@ -2,14 +2,14 @@
 
 | ID | Public location |
 | --- | --- |
-| P71 | `about/` explains the 3D Vision interest and the monocular-depth experience behind it. |
-| P72 | `learning/` states a reproducible-experiment goal and four next actions. |
-| P73 | `about/` connects Hugo, Git/GitHub, Python, and computer vision to actual work. |
-| P74 | `projects/portfolio-site/` states October 2026 and the in-progress deployment/report stage. |
-| P75 | The same page states the need for a separate, rubric-compliant portfolio. |
-| P76 | The page labels the work as individual and separates upstream theme code. |
-| P77 | Four implementation stages and the reason for the theme choice are documented. |
-| P78 | Source, workflow, public site, and verification records are listed as outputs. |
-| P79 | A deployment-path lesson, current limitation, and next verification action are connected. |
+| P71 | `about/` explains the path from 2D vision research to 3D scene understanding. |
+| P72 | `learning/` states a concrete 3D reconstruction question and four research steps. |
+| P73 | `about/` connects prior lab work, depth estimation, and neural rendering to the current focus. |
+| P74 | `experience/` gives dates for both undergraduate research appointments and development work. |
+| P75 | `experience/` identifies the technical problem addressed in each selected project. |
+| P76 | `experience/` states leadership, sole-developer, implementation, and analysis contributions. |
+| P77 | `about/` and `experience/` describe problem definition, implementation, experiments, and analysis. |
+| P78 | `experience/` lists the publication, selected development results, awards, and technical skills. |
+| P79 | `learning/` connects lessons from failed experiments to the next 3D vision research direction. |
 | P80 | No upstream demo person, sample career, or placeholder project is enabled. |
 

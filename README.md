@@ -36,11 +36,9 @@ hugo server --source site --config hugo.yaml,pages.json --baseURL http://localho
 ## 콘텐츠 수정 위치
 
 - 기본 정보·메뉴·운영 URL: `site/hugo.yaml`
-- 소개와 기술 적용 사례: `site/content/about.md`
-- 연구실·발표·수상: `site/content/experience.md`
-- 학습 목표와 다음 행동: `site/content/learning.md`
-- 대표 활동: `site/content/projects/portfolio-site/index.md`
-- 연구 기록: `site/content/projects/depth-estimation/index.md`
+- 소개와 연구 배경: `site/content/about.md`
+- 연구실·논문·개발·수상: `site/content/experience.md`
+- 향후 연구 방향: `site/content/learning.md`
 - 홈 화면 구성: `site/layouts/home.html`
 - 색상·반응형·초점 스타일: `site/assets/sass/_custom.scss`
 
@@ -52,7 +50,7 @@ hugo server --source site --config hugo.yaml,pages.json --baseURL http://localho
 
 ```powershell
 git add site/content/about.md
-git commit -m "content(about): update research interests"
+git commit -m "Update research interests"
 git push origin main
 ```
 
