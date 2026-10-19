@@ -104,6 +104,25 @@ label:focus-visible {
 }
 
 @media (max-width: 768px) {
+  .menu .menu-trigger {
+    position: absolute;
+    top: 0.2rem;
+    right: 0.1rem;
+    z-index: 4;
+    display: block;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .menu .menu-trigger:focus-visible + label .menu-icon {
+    outline: 3px solid #f1a53a;
+    outline-offset: 3px;
+    border-radius: 0.25rem;
+  }
+
   .menu input[type="checkbox"]:checked ~ .trigger {
     z-index: 0;
     background: #fff;
