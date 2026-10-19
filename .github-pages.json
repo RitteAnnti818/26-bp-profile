@@ -1,7 +1,7 @@
 {
   "generator": "3.1",
-  "repo": "RitteAnnti818/2026-beginner-project-portfolio",
-  "baseURL": "https://ritteannti818.github.io/2026-beginner-project-portfolio/",
+  "repo": "RitteAnnti818/26-bp-profile",
+  "baseURL": "https://ritteannti818.github.io/26-bp-profile/",
   "audited": true,
   "config": "hugo.yaml,pages.json",
   "theme": "hugo-blog-awesome",

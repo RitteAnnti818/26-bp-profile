@@ -3,8 +3,8 @@
 - Student number: `[enter before submission]`
 - Name: Heeyeon Kim
 - GitHub ID: RitteAnnti818
-- Site: `https://ritteannti818.github.io/2026-beginner-project-portfolio/`
-- Repository: `https://github.com/RitteAnnti818/2026-beginner-project-portfolio`
+- Site: `https://ritteannti818.github.io/26-bp-profile/`
+- Repository: `https://github.com/RitteAnnti818/26-bp-profile`
 - Final full main SHA: `[enter after final push]`
 - Commit URL: `[enter after final push]`
 - Final Actions URL and status: `[enter after successful deployment]`

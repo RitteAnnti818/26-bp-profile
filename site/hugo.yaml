@@ -1,4 +1,4 @@
-baseURL: "https://ritteannti818.github.io/2026-beginner-project-portfolio/"
+baseURL: "https://ritteannti818.github.io/26-bp-profile/"
 title: "Heeyeon Kim | Portfolio"
 theme: "hugo-blog-awesome"
 defaultContentLanguage: "ko"
@@ -55,7 +55,7 @@ languages:
       webmanifest:
         name: "Heeyeon Kim Portfolio"
         short_name: "HK Portfolio"
-        start_url: "/2026-beginner-project-portfolio/"
+        start_url: "/26-bp-profile/"
         theme_color: "#315b7d"
         background_color: "#ffffff"
         display: "standalone"

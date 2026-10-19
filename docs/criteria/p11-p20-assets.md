@@ -1,6 +1,6 @@
 # P11–P20: assets and project paths
 
-The production build must be inspected beneath `/2026-beginner-project-portfolio/`, not only at a local domain root.
+The production build must be inspected beneath `/26-bp-profile/`, not only at a local domain root.
 
 - P11–P12: verify fingerprinted theme CSS and JavaScript return HTTP 200 and the theme toggle/back-to-top interactions work.
 - P13: verify the avatar generated from `site/assets/avatar.jpg` is visible and has the author name as alt text.

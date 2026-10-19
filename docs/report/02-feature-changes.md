@@ -9,6 +9,6 @@
 ## Project-path deployment
 
 - Before: root-relative configuration would point assets at the user-site root.
-- After: `site/hugo.yaml`, `.github-pages.json`, Hugo-generated links, and the build helper target `/2026-beginner-project-portfolio/`.
+- After: `site/hugo.yaml`, `.github-pages.json`, Hugo-generated links, and the build helper target `/26-bp-profile/`.
 - Verification: build and asset checks in `docs/verification/01-build.md` and `02-paths-and-assets.md`.
 
