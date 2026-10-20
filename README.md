@@ -1,20 +1,6 @@
-# Heeyeon Kim — 2026 초급프로젝트 포트폴리오
+# 초급프로젝트 포트폴리오
 
 `hugo-blog-awesome` 테마를 기반으로 만든 개인 포트폴리오입니다. 기존 개인 홈페이지와 분리된 새 저장소이며, `main`에 push하면 GitHub Actions가 Hugo 사이트를 빌드해 GitHub Pages로 배포합니다.
-
-- 공개 사이트(배포 후): <https://ritteannti818.github.io/26-bp-profile/>
-- 새 과제 저장소(생성 후): <https://github.com/RitteAnnti818/26-bp-profile>
-- 기존 `RitteAnnti818.github.io` 저장소는 이 과제에서 수정하지 않습니다.
-
-## 사용 환경
-
-- Hugo Extended 0.167.0
-- Python 3.12(수업 제공 스크립트는 Python 3.9 이상 지원)
-- 수업 제공 `pages_build.py` 3.1
-- Hugo blog awesome 2.1.1, MIT License
-- GitHub Actions / GitHub Pages
-
-Actions에서는 Hugo·Python·Node·Go 버전을 워크플로에 고정합니다. 테마 소스도 `site/themes/hugo-blog-awesome/`에 포함하므로 별도 submodule 초기화가 필요하지 않습니다.
 
 ## 로컬 빌드
 
@@ -55,15 +41,6 @@ git push origin main
 ```
 
 `main` push는 `.github/workflows/deploy.yml`을 자동 실행합니다. GitHub의 **Actions**에서 build와 deploy가 모두 성공했는지 확인하고, **Settings → Pages → Build and deployment → Source**가 **GitHub Actions**인지 확인합니다. 마지막으로 로그인하지 않은 창에서 공개 URL을 다시 엽니다.
-
-## 검증과 보고서 근거
-
-- `docs/criteria/`: 공개 평가 P01–P80 구현 위치
-- `docs/qa/`: 빌드·자산·링크·반응형·키보드 수동 절차
-- `docs/verification/`: 실제 결과와 화면 증빙 표
-- `docs/report/`: 제출 정보, 기능 변경, 오류 수정, AI 활용, 커밋 집계 초안
-
-최종 제출 전에는 1440px·768px·390px, 200% 확대, 연속 Tab 조작, 내부 URL 새로고침, 캐시 없는 자산 요청을 공개 사이트에서 검사합니다. 원격 배포 결과가 없을 때는 로컬 성공을 공개 성공으로 기록하지 않습니다.
 
 ## 출처와 라이선스
 
